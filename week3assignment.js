@@ -21,27 +21,28 @@ let myValue = 86;    //added 'let' to prevent it from being a global variable
 const firstName = "Titus"
 const lastName = "Kirui"
 const guruCodingCourse = "javaScript"
-const testScores = 70
+let testScores = 68
 
 
 //QUESTION FIVE
-if (myValue < 30)
-myValue="Failed"      //Initializing the the variable 'myValue' to a String such that it should be displayed in the console terminal incase it meets the condition
-    else if(myValue >= 31 && myValue <= 40 )
-    myValue=("The Grade is E")                  //
-   else if(myValue >= 41 && myValue <= 49 )
-   myValue="The Grade is D"                    //
-    else if(myValue >= 50 && myValue <= 59 ) //Conditions
-    myValue="The Grade is C"
-    else if(myValue >= 60 && myValue <= 69 )
-    myValue="The Grade is B"
-    else if(myValue >= 70 && myValue <=100 )
-    myValue="The Grade is A"
-   else if(myValue < 0 )
-   myValue="No Test Score!"                   //
+//Note: The variable "testScores" referred in this question is the one declared in question 4 above
+if (testScores < 30)
+testScores="Failed"      //Initializing the the variable 'testScores' to a String such that it should be displayed in the console terminal incase it meets the condition
+    else if(testScores >= 31 && testScores <= 40 )
+    testScores=("The Grade is E")                  //
+   else if(testScores >= 41 && testScores <= 49 )
+   testScores="The Grade is D"                    //
+    else if(testScores >= 50 && testScores <= 59 ) //Conditions
+    testScores="The Grade is C"
+    else if(testScores >= 60 && testScores <= 69 )
+   testScores="The Grade is B"
+    else if(testScores >= 70 && testScores <=100 )
+    testScores="The Grade is A"
+   else if(testScores < 0 )
+   testScores="No Test Score!"                   //
     else
-    myValue="The Score is Out of Range!"
-    console.log("Dear "+firstName+" "+lastName+"! "+myValue+". "+"Thank you for participating in "+guruCodingCourse+" Guru Coding Course.")
+    testScores="The Score is Out of Range!"
+    console.log("Dear "+firstName+" "+lastName+"! "+testScores+". "+"Thank you for participating in "+guruCodingCourse+" Guru Coding Course.")
 
 
     //QUESTION SIX
